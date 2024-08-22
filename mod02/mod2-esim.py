@@ -33,4 +33,5 @@ print (f"Nimi: {name}, Ikä: {age}, Pituus: {height:.2f} metriä.")
 
 import math
 # math. komento avaa matemaattisten kaavojen valikon
+#luetaan piin likiarvon math-paketissa (import lauseet aina tiedoston alkuun)
 print(math.pi)
