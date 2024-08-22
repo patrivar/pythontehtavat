@@ -30,3 +30,7 @@ height=float(input("anna pituus (m): "))
 height = height + 0.1
 # tulos f-string muodossa, ei tarvitse muuttaa str()-funktiota
 print (f"Nimi: {name}, Ikä: {age}, Pituus: {height:.2f} metriä.")
+
+import math
+# math. komento avaa matemaattisten kaavojen valikon
+print(math.pi)
