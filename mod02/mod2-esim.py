@@ -22,5 +22,11 @@ age = age + 1
 print("Ikäsi on kahden vuoden päästä " + str(age))
 
 #käyttäjän pituus metreinä, liukulluku (float) float on likiarvo
-height = 1.8       #  , antaa luvulle sulkeet
-print (height)
+#height = 1.8       #  , antaa luvulle sulkeet
+#input("Anna pituus: ")
+height=float(input("anna pituus (m): "))
+#height = float(height)
+#kasvatetaab käyttäjää 10cm
+height = height + 0.1
+# tulos f-string muodossa, ei tarvitse muuttaa str()-funktiota
+print (f"Nimi: {name}, Ikä: {age}, Pituus: {height:.2f} metriä.")
