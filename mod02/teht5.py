@@ -13,11 +13,10 @@ le = float(input("Anna leivisköiden määrä: "))
 na = float(input("Anna naulojen määrä: "))
 luo = float(input("Anna luotien määrä"))
 
-summa = luo * l + n * na + lei * le
+summa = (luo * l + n * na + lei * le)/1000
 
-gramma = summa
-Kg = gramma / 1000%
 
-print(f"Massa on nykymittojen mukaan: {int(Kg), gramma}")
+
+print(f"Massa on nykymittojen mukaan: {summa:.3f}kg")
 
 

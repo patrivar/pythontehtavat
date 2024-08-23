@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod02/teht5.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod02/teht5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod02/teht6.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod02/teht6.py" afterDir="false" />
-    </list>
+    <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1724232979250" duration="587000" />
       <workItem from="1724320844744" duration="8094000" />
       <workItem from="1724334392573" duration="8431000" />
-      <workItem from="1724394399182" duration="4693000" />
+      <workItem from="1724394399182" duration="4730000" />
     </task>
     <task id="LOCAL−00001" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -133,7 +129,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1724342786892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1724399144626</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1724399144626</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
