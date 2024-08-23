@@ -3,18 +3,11 @@
 #Nelinumeroisen koodin, jonka kukin numeromerkki on väliltä 1..6.
 import random
 
-from mod02.teht2 import random_number
+random_number = random.randint(100,999,)
+random_number1 = random.randint(1000,9999,)
+print(f"Kolmenumeroinen koodi: {random_number}")
+print(f"Nelinumeroinen koodi: {random_number1}")
 
-n = float(input("montako numeroisen koodin haluat (3 vai 4): "))
 
 
 
-
-if n == "3":
-    random_number = random.randint(0, 9)
- print ("f"(random_number, random_number, random_number))
-
-elif n == "4":
-
-     random_number = random.randint (1,6
- print ("f"(random_number, random_number, random_number, random_number))
