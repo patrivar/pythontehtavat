@@ -16,7 +16,6 @@ luo = float(input("Anna luotien määrä"))
 summa = (luo * l + n * na + lei * le)/1000
 
 
-
 print(f"Massa on nykymittojen mukaan: {summa:.3f}kg")
 
 
