@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod02/teht5.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod02/teht5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1724394399182" duration="4730000" />
       <workItem from="1724400879636" duration="247000" />
       <workItem from="1724401505436" duration="141000" />
-      <workItem from="1724508169218" duration="4519000" />
+      <workItem from="1724508169218" duration="5337000" />
     </task>
     <task id="LOCAL−00001" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -156,7 +155,21 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1724508569726</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1724513124063</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1724513124063</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1724513500710</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1724513500710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
