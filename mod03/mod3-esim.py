@@ -56,4 +56,15 @@ elif user_input=="c":
 else:
     print("Et valinnut järkevää vastausta.. takas kouluun")
 
+
+ika = int(input("Anna ikäsi: "))
+if ika>=65:
+    print("Olet eläkeiässä.")
+elif ika>=18:
+    print("Olet työiässä.")
+elif ika>=7:
+    print("Olet koululainen.")
+else:
+    print("Olet pikkulapsi.")
+
 print('ohjelman päätös')
