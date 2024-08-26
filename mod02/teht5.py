@@ -5,8 +5,8 @@
 #1 luoti on 13.3g
 
 l = 13.3
-n = 32 * (l)
-lei = 20 * (n)
+n = 32 * l
+lei = 20 * n
 
 le = float(input("Anna leivisköiden määrä: "))
 na = float(input("Anna naulojen määrä: "))
