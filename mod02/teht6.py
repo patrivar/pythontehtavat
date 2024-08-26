@@ -10,8 +10,8 @@ random_number3 = random.randint(1,6)
 random_number4 = random.randint(1,6)
 random_number5 = random.randint(1,6)
 random_number6 = random.randint(1,6)
-print(f"Kolmenumeroinen koodi: {random_number, random_number1, random_number2}")
-print(f"Nelinumeroinen koodi: {random_number3, random_number4, random_number5, random_number6}")
+print(f"Kolmenumeroinen koodi: {random_number} {random_number1} {random_number2}")
+print(f"Nelinumeroinen koodi: {random_number3} {random_number4} {random_number5} {random_number6}")
 
 
 
