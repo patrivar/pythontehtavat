@@ -67,4 +67,19 @@ elif ika>=7:
 else:
     print("Olet pikkulapsi.")
 
+'''
+#Loogiset operaattorit
+ika = 5
+nimi = "matti"
+#Lauseke a and b on tosi täsmälleen silloin, kun sekä lauseke a että lauseke b ovat tosia.
+#true true
+print(ika < 10 and nimi == "matti") #true
+
+#true false
+print(ika < 10 and nimi == "ulla") #false
+
+#lauseke a or b on tosi täsmälleen silloin, kun vähintän jompikumpi on tosi
+print(ika < 10 or nimi == "ulla") #true
+'''
+
 print('ohjelman päätös')
