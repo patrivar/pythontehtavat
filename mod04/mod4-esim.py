@@ -47,4 +47,5 @@ while command != "lopeta":
 
     else:
         print("En ymmärrä komentoa. Yritä uudestaan.")
+
 print("Ohjelma sammutettu.")
