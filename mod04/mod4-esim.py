@@ -20,10 +20,22 @@ while True:
     print("Moi")
     print("Helv")
 '''
+'''
 max_count = int(input("Montako kertaa kukutaan? "))
 counter = 0
 while counter < max_count:
     counter = counter + 1
     print(f"{counter}. Kerran Kukkuu")
 print(f"Laskurin arvo lopuksi {counter}")
+'''
 
+#ohjelma komentorivikäyttöliittymällä
+
+while True:
+    command = input("Komento, kiitos: ")
+    if command == "lopeta":
+        print("Lopetetaan.")
+        break
+    else:
+        print("En ymmärrä komentoa. Yritä uudestaan.")
+print("Ohjelma sammutettu.")
