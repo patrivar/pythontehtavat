@@ -6,10 +6,13 @@
 
 t = input("Anna käyttäjä tunnus: ")
 s = input("Anna salasana: ")
-k = 0
-while k < 5:
+k = 1
+while k <= 5:
+    if k == 5:
+        print("Pääsy evätty")
+        break
 
-    if t != "python" or s != "rules":
+    elif t != "python" or s != "rules":
         print("Käyttäjätunnus tai salasana väärin. Yritä uudestaan.")
         t = input("Anna käyttäjä tunnus: ")
         s = input("Anna salasana: ")
@@ -17,9 +20,4 @@ while k < 5:
 
     elif t == "python" and s == "rules":
         print("Tervetuloa")
-
-    else:
-        print("Pääsy evätty")
-
-
-
+        break
