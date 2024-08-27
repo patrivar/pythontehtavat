@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
-      <change beforePath="$PROJECT_DIR$/mod04/mod4-esim.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod04/mod4-esim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod03/teht01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod03/teht02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "Python.mod2-esim.executor": "Run",
     "Python.mod3-esim.executor": "Run",
     "Python.mod4-esim.executor": "Run",
+    "Python.teht01.executor": "Run",
     "Python.teht2.executor": "Run",
     "Python.teht3.executor": "Run",
     "Python.teht4.executor": "Run",
@@ -93,7 +96,8 @@
       <workItem from="1724401505436" duration="141000" />
       <workItem from="1724508169218" duration="5379000" />
       <workItem from="1724651182191" duration="10818000" />
-      <workItem from="1724752759092" duration="8403000" />
+      <workItem from="1724752759092" duration="8467000" />
+      <workItem from="1724775159428" duration="685000" />
     </task>
     <task id="LOCAL−00001" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -312,7 +316,21 @@
       <option name="presentableId" value="LOCAL−00031" />
       <updated>1724761317879</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL−00032" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1724761614576</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1724761614576</updated>
+    </task>
+    <task id="LOCAL−00033" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1724761629606</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1724761629606</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
