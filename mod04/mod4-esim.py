@@ -30,12 +30,12 @@ print(f"Laskurin arvo lopuksi {counter}")
 '''
 
 #ohjelma komentorivikäyttöliittymällä
-
-while True:
+command = ""
+while command != "lopeta":
     command = input("Komento, kiitos: ")
     if command == "lopeta":
         print("Lopetetaan.")
-        break
+        #break# "Heittää ulos" silmukasta, ei paras ohjelmointikäytäntö
     else:
         print("En ymmärrä komentoa. Yritä uudestaan.")
 print("Ohjelma sammutettu.")
