@@ -88,3 +88,9 @@ while command != "lopeta":
         print("En ymmärrä komentoa. Yritä uudestaan.")
 
 print("Ohjelma sammutettu.")
+
+#Tulostetaan 2 potenssit
+x = 2
+while x < 2:
+    print(x)
+    x = x * 2 #Voidaan merkitä myös x *= 2
