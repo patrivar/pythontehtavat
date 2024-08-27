@@ -1,3 +1,5 @@
+import random
+
 '''
 print(not 1 != 1)
 print(True and True)
@@ -29,7 +31,28 @@ while counter < max_count:
 print(f"Laskurin arvo lopuksi {counter}")
 '''
 
+#noppapeli
+#mikä on kahde yhtäaikaisen kutosen todennäköisyys?
+'''
+rounds = 100
+round_counter = 0
+total_rolls = 0
+while round_counter < rounds:
+    round_counter += 1
+    die1 = die2 = roll_counter = 0
+    while die1 < 6 or die2 < 6:
+        roll_counter += 1
+        die1 = random.randint(1, 6)
+        die2 = random.randint(1, 6)
+        #print(f"{roll_counter}. Heiton silmäluvut: {die1} ja {die2}.")
+    #print(f"Noppaa heitettiin {roll_counter} kertaa.")
+    total_rolls = total_rolls + roll_counter
+print(f"kaksi kuutosta saatiin keskimäärin {total_rolls/rounds} heitolla/kierros.")
+
 #ohjelma komentorivikäyttöliittymällä
+#(valikko sovellus johon sisällytetty ylemmät)
+'''
+
 command = ""
 while command != "lopeta":
     command = input("Komento, kiitos: ")
@@ -44,6 +67,22 @@ while command != "lopeta":
             counter = counter + 1
             print(f"{counter}. Kerran Kukkuu")
         print(f"Laskurin arvo lopuksi {counter}")
+
+    elif command == "noppa":
+        rounds = 100
+        round_counter = 0
+        total_rolls = 0
+        while round_counter < rounds:
+            round_counter += 1
+            die1 = die2 = roll_counter = 0
+            while die1 < 6 or die2 < 6:
+                roll_counter += 1
+                die1 = random.randint(1, 6)
+                die2 = random.randint(1, 6)
+                # print(f"{roll_counter}. Heiton silmäluvut: {die1} ja {die2}.")
+            # print(f"Noppaa heitettiin {roll_counter} kertaa.")
+            total_rolls = total_rolls + roll_counter
+        print(f"kaksi kuutosta saatiin keskimäärin {total_rolls / rounds} heitolla/kierros.")
 
     else:
         print("En ymmärrä komentoa. Yritä uudestaan.")
