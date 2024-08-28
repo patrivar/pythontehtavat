@@ -2,8 +2,8 @@
 # kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi.
 # Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman
 
-l = int(input("Anna luku: "))
+l = int(input("Anna luku"))
+
 while l != "":
-    l = int(input("Anna luku: "))
-    if l == "":
-        print(f"{l<l}")
+    num = int(input("Anna luku"))
+    if num > l:
