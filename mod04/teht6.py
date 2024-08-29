@@ -6,7 +6,7 @@ import random
 
 #TODO: kysy N arvo käyttäjälle
 
-N = 100 #pisteiden kokonaismäärä
+N = int(input("Anna pisteiden lukumäärä")) #pisteiden kokonaismäärä
 n = 0 # Ympyrään osuvien pisteiden lukumäärä
 iterator = 0
 
