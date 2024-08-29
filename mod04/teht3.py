@@ -7,7 +7,7 @@ if input_string != "":
     max_num = min_num = int(input_string)
     while input_string != "":
         input_string = input("Syötä luku: ")
-        if input_string == "":
+        if input_string != "":
             number = int(input_string)
             if number > max_num:
                 max_num = number
