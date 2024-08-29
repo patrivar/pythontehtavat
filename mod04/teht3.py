@@ -13,4 +13,6 @@ if input_string != "":
                 max_num = number
             if number < min_num:
                 min_num = number
-print(f"Pienin numero: {min_num}, Suurin numero: {max_num}")
+            print(f"Pienin numero: {min_num}, Suurin numero: {max_num}")
+else:
+    print("Ei lukua")
