@@ -4,9 +4,8 @@
 
 import random
 
-#TODO: kysy N arvo käyttäjälle
 
-N = int(input("Anna pisteiden lukumäärä")) #pisteiden kokonaismäärä
+N = int(input("Anna pisteiden lukumäärä: ")) #pisteiden kokonaismäärä
 n = 0 # Ympyrään osuvien pisteiden lukumäärä
 iterator = 0
 
@@ -18,6 +17,9 @@ while iterator < N:
     #print(x**2 + y**2 < 1)
     if x**2 + y**2 < 1:
         print("Piste on yksikköympyrässä")
-
-#TODO: lisää n arvoon 1
-#TODO: Tulosta kaavan mukaan laskettu piin likiarvo
+        if x**2 + y**2 < 1 == True:
+            n = n + 1
+            print(f"Näin monta pistettä {n} osui ympyrän sisälle")
+        if iterator == N:
+            pi = 4*n/N
+            print(f"Likiarvo on {pi}")
