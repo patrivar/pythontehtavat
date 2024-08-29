@@ -6,4 +6,3 @@ l = int(input("Anna luku"))
 
 while l != "":
     num = int(input("Anna luku"))
-    if num > l:
