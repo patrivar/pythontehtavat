@@ -87,4 +87,43 @@ print(nimet)
 nimet[3] = "Lumi-Helmi"
 print(nimet)
 
-print(nimet.sort())
+nimet.sort()
+print(nimet)
+
+print("-----------------")
+print("Listan läpikäynti for-toistorakenteen avulla")
+
+names = []
+
+for kirjain in "abcde":
+    print(kirjain)
+
+for alkio in [1,2,3,4,5]:
+    print(alkio)
+
+for nimi in nimet:
+    print(nimi)
+
+for numero in range(1, 11): #numerot alkaen 1 niin että 11 jätetään pois. eli luvut jotka ovat <11
+    print(numero)
+'''
+for numero in range(1, 50, 2):
+    print(numero)
+
+for i in range(999,0, -3):
+    print(i)
+'''
+#Käytetään edell olevia iteroimaan nimilistaa läpi
+#for silmukka iteraatiolla
+
+print(nimet)
+for i in range(5):
+    print(i)
+    print(f"Terve {nimet[i]}")
+
+listan_pituus = len(nimet)
+print(nimet)
+print(f"Listan pituus on {listan_pituus} alkiota pitkä.")
+#for i in rnage (len(nimet)):
+for i in range (listan_pituus):
+    print(f"Terve {nimet[i]}")
