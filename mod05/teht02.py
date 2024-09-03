@@ -10,6 +10,6 @@ while k != "":
     k = (input("Anna luku: "))
     if k != "":
         l.append(k)
-        l.sort(reverse=True)
 else:
-    print(l)
+    l.sort(reverse=True)
+    print(l[0:5])
