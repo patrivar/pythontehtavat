@@ -9,9 +9,7 @@ k = int(input("Anna luku: "))
 for i in range(2, k):
     if k % i == 0:
         print(f"Luku {k} ei ole alkuluku.")
-    return
-
-
+        break
 
 if k % i != 0 and k % k == 0:
     print(f"Luku {k} on alkuluku.")

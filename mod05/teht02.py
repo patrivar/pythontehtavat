@@ -11,5 +11,5 @@ while k != "":
     if k != "":
         l.append(k)
 else:
-    l.sort(reverse=True)
-    print(l[0:5])
+    l.sort()
+    print(l)
