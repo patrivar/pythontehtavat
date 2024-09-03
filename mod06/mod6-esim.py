@@ -48,6 +48,7 @@ def calculate_sum(numbers):
 nums = [3,4,5]
 print(nums)
 print(calculate_sum(nums))
+#Funktio muokkasi samaa listaa, mihin pääohjelman num muuttuja viittaa
 print(nums)
 
 print(calculate_sum([3,4,5,10]))
