@@ -33,7 +33,9 @@ print(calculate("sum", 2.4, 3.5))
 print(calculate("division", 2.4, 3))
 '''
 
-# Listat ja funktiot
+'''
+# Listat ja funktiot, funktio ottaa parametrina listan lukuja ja laskee
+# ja palauttaa niiden summan
 def calculate_sum(numbers):
     total_sum = 0
     # kaksi tapaa tehdä for-loop listan käsittelyyn
@@ -52,3 +54,15 @@ print(calculate_sum(nums))
 print(nums)
 
 print(calculate_sum([3,4,5,10]))
+'''
+
+# Vaihtuva määrä parametreja
+# * tekee kaikista parametreista (arvoista) listan
+# ja sijoittaa listan numbers-muuttujaan
+def calculate_sum(*numbers):
+    total_sum = 0
+    for num in numbers:
+        total_sum = total_sum + num
+    return total_sum
+
+print(calculate_sum(2,3,8))
