@@ -56,6 +56,7 @@ print(nums)
 print(calculate_sum([3,4,5,10]))
 '''
 
+'''
 # Vaihtuva määrä parametreja
 # * tekee kaikista parametreista (arvoista) listan
 # ja sijoittaa listan numbers-muuttujaan
@@ -66,3 +67,21 @@ def calculate_sum(*numbers):
     return total_sum
 
 print(calculate_sum(2, 3, 8, -10, 4.67))
+'''
+
+
+# Nimetyt parametrit ja oletusarvot
+# Yksinkertainen laskin, jolle voi antaa vain tasan 2-3 parametriä
+
+def calculate2(number1, number2, calc_type="sum"):
+    if calc_type == "sum":
+        return (number1 + number2)
+    elif calc_type == "division":
+        return number1 / number2
+    return None
+
+#reurn None on oletustoiminnallisuua
+
+print(calculate2(2.4, 3.5))
+print(calculate2(calc_type="division", number2= 2.4, number1= 3.5))
+print(calculate2(2.4, 3.5, "division"))
