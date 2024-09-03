@@ -65,4 +65,4 @@ def calculate_sum(*numbers):
         total_sum = total_sum + num
     return total_sum
 
-print(calculate_sum(2,3,8))
+print(calculate_sum(2, 3, 8, -10, 4.67))
