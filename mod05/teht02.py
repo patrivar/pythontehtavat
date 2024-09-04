@@ -4,12 +4,11 @@
 # Vihje: listan alkioiden lajittelujärjestyksen voi kääntää antamalla sort-metodille argumentiksi reverse=True.
 
 l = []
-k = l.append(input("Anna luku: "))
+k = input("Anna luku: ")
 
 while k != "":
+    l.append(int(k))
     k = (input("Anna luku: "))
-    if k != "":
-        l.append(k)
 else:
-    l.sort()
-    print(l)
+    l.sort(reverse=True)
+    print(l[:5])
