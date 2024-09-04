@@ -3,3 +3,5 @@
 # yksi kerrallaan allekkain samassa järjestyksessä kuin ne syötettiin. käytä for-toistorakennetta
 # nimien kysymiseen ja for/in toistorakennetta niiden läpikäymiseen.
 
+k = []
+for i in range(5):
