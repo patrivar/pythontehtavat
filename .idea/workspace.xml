@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
-      <change afterPath="$PROJECT_DIR$/mod05/teht3,1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod06/teht6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod06/teht3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod06/teht3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,28 +155,7 @@
       <workItem from="1725389035831" duration="171000" />
       <workItem from="1725427956194" duration="1538000" />
       <workItem from="1725514307075" duration="1033000" />
-      <workItem from="1725530525394" duration="3024000" />
-    </task>
-    <task id="LOCAL−00027" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724756997211</created>
-      <option name="number" value="LOCAL−00027" />
-      <option name="presentableId" value="LOCAL−00027" />
-      <updated>1724756997211</updated>
-    </task>
-    <task id="LOCAL−00028" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724757175661</created>
-      <option name="number" value="LOCAL−00028" />
-      <option name="presentableId" value="LOCAL−00028" />
-      <updated>1724757175661</updated>
-    </task>
-    <task id="LOCAL−00029" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724758200337</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1724758200337</updated>
+      <workItem from="1725530525394" duration="5944000" />
     </task>
     <task id="LOCAL−00030" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -506,7 +479,28 @@
       <option name="presentableId" value="LOCAL−00075" />
       <updated>1725514707676</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL−00076" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725533584568</created>
+      <option name="number" value="LOCAL−00076" />
+      <option name="presentableId" value="LOCAL−00076" />
+      <updated>1725533584568</updated>
+    </task>
+    <task id="LOCAL−00077" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725533682761</created>
+      <option name="number" value="LOCAL−00077" />
+      <option name="presentableId" value="LOCAL−00077" />
+      <updated>1725533682761</updated>
+    </task>
+    <task id="LOCAL−00078" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725533952628</created>
+      <option name="number" value="LOCAL−00078" />
+      <option name="presentableId" value="LOCAL−00078" />
+      <updated>1725533952628</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +512,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythontehtävät$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1724781332968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
-    <SUITE FILE_PATH="coverage/pythontehtävät$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1725533290467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
+    <SUITE FILE_PATH="coverage/pythontehtävät$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1725534394586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht7.coverage" NAME="teht7 Coverage Results" MODIFIED="1725257332497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht03.coverage" NAME="teht03 Coverage Results" MODIFIED="1725389168136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod6_esim.coverage" NAME="mod6-esim Coverage Results" MODIFIED="1725366404320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
@@ -528,11 +522,11 @@
     <SUITE FILE_PATH="coverage/pythontehtävät$teht5.coverage" NAME="teht5 Coverage Results" MODIFIED="1724937150695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht6.coverage" NAME="teht6 Coverage Results" MODIFIED="1725261481833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht01.coverage" NAME="teht01 Coverage Results" MODIFIED="1725388477790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
-    <SUITE FILE_PATH="coverage/pythontehtävät$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1724823411795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
+    <SUITE FILE_PATH="coverage/pythontehtävät$teht2.coverage" NAME="teht2 Coverage Results" MODIFIED="1725535839484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht05.coverage" NAME="teht05 Coverage Results" MODIFIED="1724783298690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht02.coverage" NAME="teht02 Coverage Results" MODIFIED="1725532733892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod3_esim.coverage" NAME="mod3-esim Coverage Results" MODIFIED="1724661617810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod03" />
-    <SUITE FILE_PATH="coverage/pythontehtävät$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1725380819378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
+    <SUITE FILE_PATH="coverage/pythontehtävät$teht3.coverage" NAME="teht3 Coverage Results" MODIFIED="1725536482159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod5_esim.coverage" NAME="mod5-esim Coverage Results" MODIFIED="1725382100833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod4_esim.coverage" NAME="mod4-esim Coverage Results" MODIFIED="1724760841125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
   </component>
