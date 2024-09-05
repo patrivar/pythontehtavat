@@ -5,3 +5,5 @@
 
 k = []
 for i in range(5):
+    k.append(input("Anna kaupungin nimi: "))
+print(k)

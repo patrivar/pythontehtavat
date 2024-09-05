@@ -152,14 +152,8 @@
       <workItem from="1725378866781" duration="4763000" />
       <workItem from="1725383727311" duration="3340000" />
       <workItem from="1725389035831" duration="171000" />
-      <workItem from="1725427956194" duration="1512000" />
-    </task>
-    <task id="LOCAL−00025" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724756439503</created>
-      <option name="number" value="LOCAL−00025" />
-      <option name="presentableId" value="LOCAL−00025" />
-      <updated>1724756439503</updated>
+      <workItem from="1725427956194" duration="1538000" />
+      <workItem from="1725514307075" duration="386000" />
     </task>
     <task id="LOCAL−00026" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -497,7 +491,14 @@
       <option name="presentableId" value="LOCAL−00073" />
       <updated>1725428464928</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL−00074" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725429487109</created>
+      <option name="number" value="LOCAL−00074" />
+      <option name="presentableId" value="LOCAL−00074" />
+      <updated>1725429487109</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
