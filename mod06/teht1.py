@@ -8,6 +8,7 @@ import random
 def noppa():
     s = random.randint(1,6)
     if s == 6:
+        print(f"{s}")
         return True
     else:
        while s != 6:
@@ -15,4 +16,4 @@ def noppa():
            print(f"{s}")
     return True
 
-print(noppa ())
+noppa()
