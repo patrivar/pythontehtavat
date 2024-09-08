@@ -4,10 +4,18 @@
 # sen jälkeen sekä alkuperäisen että karsitun listan.
 
 l = []
-k = []
 
 
-def ero(k):
-    for i in range(30):
-        l.append(i)
-        k.append(i)
+for i in range(30):
+    l.append(i)
+
+
+def par(l):
+    for o in range(len(l)):
+        if o % 2 != 0:
+            l.remove(o)
+            return par
+
+
+print(l)
+print(par)
