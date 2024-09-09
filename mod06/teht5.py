@@ -7,15 +7,16 @@ l = []
 
 
 for i in range(30):
-    l.append(i)
+    l.append(i+1)
 
 
-def par(l):
-    for o in range(len(l)):
-        if o % 2 != 0:
-            l.remove(o)
-            return par
+def par(lista):
+    l2 = []
+    for o in lista:
+        if o % 2 == 0:
+            l2.append(o)
+    return l2
 
 
 print(l)
-print(par)
+print(par(l))
