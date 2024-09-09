@@ -1,4 +1,4 @@
-# Monikko ()
+#Monikko ()
 '''
 print("\nMonikko ()\n")
 
@@ -77,7 +77,9 @@ def heitä2():
 noppa1, noppa2 = heitä2()
 print(f"Nopista tuli {noppa1} ja {noppa2}.")
 
-#JOUKKO eli set {}
+############################################################################################################
+
+print("\nJOUKKO eli set {} \n")
 
 # Joukko (set) on järjestämätön tietorakenne, eli  sen alkiot voivat olla missä tahansa järjestyksessä
 # Koska joukon alkioille ei ole määritelty järjstystä, ei alkioihin voi myöskään viitata indeksillä
@@ -108,7 +110,7 @@ print(minun_joukko)
 minun_joukko.remove(7)
 print(minun_joukko)
 
-####################
+##############################################################################################################
 
 pelit = {"Monopoli", "Shakki", "Cluedo"}
 print(pelit)
@@ -134,4 +136,68 @@ for p in pelit:
 
 if "Monopoli" in pelit:
     print("On se Monokin siellä")
+
+##############################################################################################################
+
+autolista = []
+autolista.append("Audi")
+print(autolista)
+
+#Tästä tuleekin sanakirja eli dictionary
+autojoukko = {}
+print(type(autojoukko)) # <class 'dict'>
+
+#tyhjä joukko luodaan edellä esitetystä oiketen set-funktion avulla.
+autojoukko = set()
+autojoukko.add("Audi")
+print(type(autojoukko)) #tämä on <class 'set'>
+print(autojoukko)
+
+################################################################################################################
+
+print("\n SANAKIRJA {} \n")
+
+# Sanakirja (dictionary) on Pythonin käytetyimpiä tietorakenteita.
+# Sanakijaan voidaan tallentaa avain-arvopareja.
+
+oppilaat = {"Aapeli": 25, "Bertta": 31, "Lucy":22, "Liiru": 5, "Minni": 23}
+print(oppilaat)
+
+# mitä ovat tietueet / item?
+print(oppilaat.items()) #ilmoittaa kaikki tietuet erillisissä suluissa
+
+# mitä ovat avaimet sanakirjassa?
+print(oppilaat.keys()) #antaa avaimet eli tässä tapauksessa nimet
+
+# mitä ovat arvoja sanakirjassa?
+print(oppilaat.values()) #antaa arvot eli tässä tapauksessa iät eli numerot
+
+# kun sanakirjaa käydään läpi for/in rakennetta käyttäen,
+# saa kierrosmuuttuja arvokseen vuoron perään kunkin sanakirjassa esiintyvän avaimen
+'''
+# tietueet eli avain-arvoparit
+for i in oppilaat:
+    print(i)
+
+print(oppilaat["Lucy"]) # antaa "avaimeen" liitetyn "arvon" tässä tapauksessa lucyyn liitetyn numeron("Lucy":22)
+
+avain="Lucy"
+print(oppilaat[avain]) # nämä 2 tapaa ovat molemmat oikein mutta alemmpi tarvitsee 2 koodiriviä 1 sijaan
+'''
+# etsi kaikki arvot
+for i in oppilaat:
+    print(i)
+
+# if / in rakenteella voidaan myös hakea sanakirjasta tietoa
+nimi = input("Anna nimi, niin etsin sen sanakirjasta: ")
+if nimi in oppilaat:
+    print(f"Oppilas {nimi} löytyi ja hänen ikänsä on {oppilaat[nimi]}.")
+
+# Kun olemassa olevaan sankirjaan lisätän arvo,
+# käytetään notaatiota sanakirja[avain] = arvo
+
+# lisätään uusi oppilas mikäli ei löydy
+# jos avain löytyy, se muokkaa olemassa olevaa, muuten luodaan uusi
+oppilaat["Ulla"] = 24
+print(oppilaat)
 
