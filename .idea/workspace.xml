@@ -35,6 +35,9 @@
     &quot;accountId&quot;: &quot;7b157a22-9228-424c-808f-4003463570f9&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mod07/mod7-esim.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -159,14 +162,7 @@
       <workItem from="1725530525394" duration="8661000" />
       <workItem from="1725796895888" duration="3226000" />
       <workItem from="1725859955827" duration="2149000" />
-      <workItem from="1725862756957" duration="3521000" />
-    </task>
-    <task id="LOCAL−00037" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724778437452</created>
-      <option name="number" value="LOCAL−00037" />
-      <option name="presentableId" value="LOCAL−00037" />
-      <updated>1724778437452</updated>
+      <workItem from="1725862756957" duration="5686000" />
     </task>
     <task id="LOCAL−00038" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -504,7 +500,14 @@
       <option name="presentableId" value="LOCAL−00085" />
       <updated>1725864280722</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL−00086" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725867176215</created>
+      <option name="number" value="LOCAL−00086" />
+      <option name="presentableId" value="LOCAL−00086" />
+      <updated>1725867176217</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +524,7 @@
     <SUITE FILE_PATH="coverage/pythontehtävät$teht03.coverage" NAME="teht03 Coverage Results" MODIFIED="1725389168136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod6_esim.coverage" NAME="mod6-esim Coverage Results" MODIFIED="1725366404320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod2_esim.coverage" NAME="mod2-esim Coverage Results" MODIFIED="1724325877533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod02" />
-    <SUITE FILE_PATH="coverage/pythontehtävät$mod7_esim.coverage" NAME="mod7-esim Coverage Results" MODIFIED="1725866644234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
+    <SUITE FILE_PATH="coverage/pythontehtävät$mod7_esim.coverage" NAME="mod7-esim Coverage Results" MODIFIED="1725868102025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht3_1.coverage" NAME="teht3,1 Coverage Results" MODIFIED="1725533565074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht04.coverage" NAME="teht04 Coverage Results" MODIFIED="1725514663925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht5.coverage" NAME="teht5 Coverage Results" MODIFIED="1725860608289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />

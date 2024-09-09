@@ -76,3 +76,62 @@ def heitä2():
 
 noppa1, noppa2 = heitä2()
 print(f"Nopista tuli {noppa1} ja {noppa2}.")
+
+#JOUKKO eli set {}
+
+# Joukko (set) on järjestämätön tietorakenne, eli  sen alkiot voivat olla missä tahansa järjestyksessä
+# Koska joukon alkioille ei ole määritelty järjstystä, ei alkioihin voi myöskään viitata indeksillä
+# Toisin kuin listassa tai monikossa, sama alkio voi esiintyä jukossa vain kertaalleen, eli jopppukossa
+# ei voi olla kahta samansisältöistä alkiota
+
+#joukko eli set
+joukko = {1, 2, 3, 4, 5, 6,}
+#joukko merkataan aaltosulkeilla
+print(joukko)
+
+print(f"Numero 6 voi esiintyä listassa useasti")
+minun_lista = [6, 2, 3, 4, 5, 6]
+print(minun_lista)
+
+print(f"Numero 6 voi esiintyä listassa useasti")
+minun_monikko = [6, 2, 3, 4, 5, 6]
+print(minun_monikko)
+
+print(f"Numero 6 EI voi esiintyä listassa useasti")
+minun_joukko = {6, 2, 3, 4, 5, 6}
+print(minun_joukko)
+
+# Yllä oleva ei sinänsä tuota virhettä, kuten ei add-metodi
+
+minun_joukko.add(7)
+print(minun_joukko)
+minun_joukko.remove(7)
+print(minun_joukko)
+
+####################
+
+pelit = {"Monopoli", "Shakki", "Cluedo"}
+print(pelit)
+
+pelit.add("Dominion")
+print(pelit)
+
+pelit.remove("Shakki")
+print(pelit)
+
+pelit.add("Cluedo")
+print(pelit)
+
+# alkiot iteroiidaan läpi for/in rakenteella
+
+for p in pelit:
+    print(p)
+    # löytyykö cluedo, jos röytyy, printtaa jotain
+    if p == "Cluedo":
+        print("Onhan se cluedo siellä!")
+
+# if / in haku toimii samalla tavalla kuin listoissa
+
+if "Monopoli" in pelit:
+    print("On se Monokin siellä")
+
