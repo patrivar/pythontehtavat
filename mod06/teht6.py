@@ -4,3 +4,9 @@
 # rahalle (eli kummalla on alhaisempi yksikköhinta). Yksikköhintojen laskennassa on hyödynnettävä kirjoitettua
 # funktiota.
 
+
+k1 = input("Anna ensimmäisen pizzan koko(cm): ")
+h1 = input("Anna ensimmäisen pizzan hinta: ")
+k2 = input("Anna toisen pizzan koko(cm): ")
+h2 = input("Anna toisen pizzan hinta: ")
+
