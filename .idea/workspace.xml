@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod07/teht1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod07/teht1.py" afterDir="false" />
-    </list>
+    <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,40 +44,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.mod2-esim.executor": "Run",
-    "Python.mod3-esim.executor": "Run",
-    "Python.mod4-esim.executor": "Run",
-    "Python.mod5-esim.executor": "Run",
-    "Python.mod6-esim.executor": "Run",
-    "Python.mod7-esim.executor": "Run",
-    "Python.random.executor": "Run",
-    "Python.teht01.executor": "Run",
-    "Python.teht02.executor": "Run",
-    "Python.teht03.executor": "Run",
-    "Python.teht04.executor": "Run",
-    "Python.teht05.executor": "Run",
-    "Python.teht06.executor": "Run",
-    "Python.teht1.executor": "Run",
-    "Python.teht2.executor": "Run",
-    "Python.teht3,1.executor": "Run",
-    "Python.teht3.executor": "Run",
-    "Python.teht4.executor": "Run",
-    "Python.teht5.executor": "Run",
-    "Python.teht6.executor": "Run",
-    "Python.teht7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.mod2-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mod3-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mod4-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mod5-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mod6-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mod7-esim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht3,1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\patri\PycharmProjects\ohjelmisto1\pythontehtävät\mod01" />
@@ -165,14 +162,7 @@
       <workItem from="1725796895888" duration="3226000" />
       <workItem from="1725859955827" duration="2149000" />
       <workItem from="1725862756957" duration="8504000" />
-      <workItem from="1725951548803" duration="6090000" />
-    </task>
-    <task id="LOCAL−00043" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724784036093</created>
-      <option name="number" value="LOCAL−00043" />
-      <option name="presentableId" value="LOCAL−00043" />
-      <updated>1724784036093</updated>
+      <workItem from="1725951548803" duration="6192000" />
     </task>
     <task id="LOCAL−00044" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -510,7 +500,14 @@
       <option name="presentableId" value="LOCAL−00091" />
       <updated>1725956839700</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL−00092" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1725958683619</created>
+      <option name="number" value="LOCAL−00092" />
+      <option name="presentableId" value="LOCAL−00092" />
+      <updated>1725958683619</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +519,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythontehtävät$teht4.coverage" NAME="teht4 Coverage Results" MODIFIED="1725537428117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
-    <SUITE FILE_PATH="coverage/pythontehtävät$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1725958547426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
+    <SUITE FILE_PATH="coverage/pythontehtävät$teht1.coverage" NAME="teht1 Coverage Results" MODIFIED="1725958624199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht7.coverage" NAME="teht7 Coverage Results" MODIFIED="1725257332497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/pythontehtävät$teht03.coverage" NAME="teht03 Coverage Results" MODIFIED="1725389168136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/pythontehtävät$mod6_esim.coverage" NAME="mod6-esim Coverage Results" MODIFIED="1725366404320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />

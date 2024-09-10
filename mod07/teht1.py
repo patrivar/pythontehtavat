@@ -10,11 +10,11 @@ kuukausi = ("Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu",
 k = int(input("Monesko kuukausi on menossa? (1-12) "))
 kuukausi = kuukausi[k-1]
 
-if k == (2,3,4):
+if k == 2 or 3 or 4:
     print("Kevättä eletään.")
-elif k == (5,6,7):
+elif k == 5 or 6 or 7:
     print("Elätään kesä aikaa.")
-elif k == (8,9,10):
+elif k == 8 or 9 or 10:
     print("Eletään kaunista syksyä.")
 else:
     print("Talvikausi meneillään.")
