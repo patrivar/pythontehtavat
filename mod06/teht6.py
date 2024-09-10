@@ -13,8 +13,8 @@ k2 = int(input("Anna toisen pyöreän pizzan halkaisija(cm): "))
 h2 = int(input("Anna toisen pizzan hinta: "))
 
 def hin ():
-    arvot1 = h1 / (math.pi * ((k1 / 2) ** 2))
-    arvot2 = h2 / (math.pi * ((k2 / 2) ** 2))
+    arvot1 = h1 / (math.pi * (((k1 / 2) / 100) ** 2))
+    arvot2 = h2 / (math.pi * (((k2 / 2) / 100) ** 2))
     return arvot1, arvot2
 
 arvot1, arvot2 = hin ()
