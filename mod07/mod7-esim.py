@@ -34,7 +34,7 @@ järjestysnumero = int(input("Anna viikonpäivän järjestysnumero (1-7): "))
 viikonpäivä = viikonpäivät[järjestysnumero-1]
 print (f"{järjestysnumero}. viikonpäivä on {viikonpäivä}.")
 '''
-
+'''
 # Monikon läpikäynti samalla tavalla kuin listan
 
 minun_monikko3 = ("eka", "toka", "kolmas", "neljäs", "viides")
@@ -175,6 +175,7 @@ print(oppilaat.values()) #antaa arvot eli tässä tapauksessa iät eli numerot
 # kun sanakirjaa käydään läpi for/in rakennetta käyttäen,
 # saa kierrosmuuttuja arvokseen vuoron perään kunkin sanakirjassa esiintyvän avaimen
 '''
+'''
 # tietueet eli avain-arvoparit
 for i in oppilaat:
     print(i)
@@ -183,6 +184,7 @@ print(oppilaat["Lucy"]) # antaa "avaimeen" liitetyn "arvon" tässä tapauksessa 
 
 avain="Lucy"
 print(oppilaat[avain]) # nämä 2 tapaa ovat molemmat oikein mutta alemmpi tarvitsee 2 koodiriviä 1 sijaan
+'''
 '''
 # etsi kaikki arvot
 for i in oppilaat:
@@ -200,4 +202,27 @@ if nimi in oppilaat:
 # jos avain löytyy, se muokkaa olemassa olevaa, muuten luodaan uusi
 oppilaat["Ulla"] = 24
 print(oppilaat)
+'''
 
+nimet = ["viivi", "ahmed"]
+numerot = ["050-1234567", "040-1234567"]
+
+print(f"{nimet[0]}, numero: {numerot[0]}")
+
+yhteystiedot = {"viivi": "050-1234567", "ahmed": "040-1234567"}
+                                                                # print(f"Viivin numero: {yhteystiedot['viivi']}")
+hakusana = input("Puhelinnumerohaku, anna nimi: ")
+                                                                # Listojen avulla, selvitetään ensin oikea indeksi
+index = nimet.index(hakusana)
+print(f"{hakusana}, numero: {numerot[index]}")
+                                                                # sanakirjalla, hyödynnetään avainta
+print(f"{hakusana}, numero: {yhteystiedot[hakusana]}")
+
+
+                    # extra: moniuloitteinen sanakirja
+yhteystiedot = {
+    "viivi": {"puh": "050-1234567", "osoite": "pikkutie 15"},
+    "ahmed": {"puh": "040-1234567", "osoite": "isotie 1"}
+}
+
+print(f"Viivin osoite on {yhteystiedot['viivi']['osoite']}")
