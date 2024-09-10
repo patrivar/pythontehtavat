@@ -5,8 +5,22 @@
 # funktiota.
 
 
-k1 = input("Anna ensimmäisen pizzan koko(cm): ")
-h1 = input("Anna ensimmäisen pizzan hinta: ")
-k2 = input("Anna toisen pizzan koko(cm): ")
-h2 = input("Anna toisen pizzan hinta: ")
+import math
+
+k1 = int(input("Anna ensimmäisen pizzan koko(cm): "))
+h1 = int(input("Anna ensimmäisen pizzan hinta: "))
+k2 = int(input("Anna toisen pizzan koko(cm): "))
+h2 = int(input("Anna toisen pizzan hinta: "))
+
+
+def hin ():
+    arvot1 = h1 / (math.pi * ((k1 / 2) ** 2))
+    arvot2 = h2 / (math.pi * ((k2 / 2) ** 2))
+    if arvot1 < arvot2:
+        print(f"Ensimmäinen pizza antaa paremman vastineen rahalle hinnalla {arvot1:.2f}euroa per neliö")
+    elif arvot1 > arvot2:
+        print(f"Toinen pizza antaa paremman vastineen rahalle hinnalla {arvot2:.2f}euroa per neliö")
+    return arvot1, arvot2
+
+hin()
 
