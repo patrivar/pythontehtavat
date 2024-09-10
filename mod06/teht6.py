@@ -7,9 +7,9 @@
 
 import math
 
-k1 = int(input("Anna ensimmäisen pizzan koko(cm): "))
+k1 = int(input("Anna ensimmäisen pyöreän pizzan halkaisija(cm): "))
 h1 = int(input("Anna ensimmäisen pizzan hinta: "))
-k2 = int(input("Anna toisen pizzan koko(cm): "))
+k2 = int(input("Anna toisen pyöreän pizzan halkaisija(cm): "))
 h2 = int(input("Anna toisen pizzan hinta: "))
 
 
