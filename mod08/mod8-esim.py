@@ -1,4 +1,3 @@
-
 import mysql.connector
 
 #connect()-funktio palauttaa tietokantayhteyden, joka sijoitetaan muuttujaan
