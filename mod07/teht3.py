@@ -9,7 +9,7 @@
 k = input("Haluatko lisätä lentokentän, hakea tiedot vai lopettaa (lisää/hae/lopeta): ")
 m = {"EFHK":"Helsinki"}
 
-while k != "Lopeta":
+while k != "lopeta":
     if k == "lisää":
         i = input("Anna uuden kentän ICAO- koodi (EFHK): ")
         l = input("Anna lentokentän nimi: ")
