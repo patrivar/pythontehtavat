@@ -3,3 +3,12 @@
 # mukaan, syötettiinkö nimi ensimmäistä kertaa. Lopuksi ohjelma luettelee syötetyt nimet yksi kerrallaan
 # allekkain mielivaltaisessa järjestyksessä. Käytä joukkotietorakennetta nimien tallentamiseen.
 
+k = input("Anna nimi: ")
+j = set({})
+while k != "":
+    if k in j:
+        print("Aiemmin syötetty nimi.")
+    else:
+        print("Uusi nimi.")
+        j.add(k)
+    k = input("Anna nimi: ")
