@@ -5,6 +5,7 @@
 
 k = input("Anna nimi: ")
 j = set({})
+
 while k != "":
     if k in j:
         print("Aiemmin syötetty nimi.")
@@ -12,3 +13,6 @@ while k != "":
         print("Uusi nimi.")
         j.add(k)
     k = input("Anna nimi: ")
+
+for i in j:
+    print(i)
