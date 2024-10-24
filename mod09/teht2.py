@@ -22,7 +22,7 @@ class Auto:
             self.nopeus = 0
 
     def auton_nopeus(self):
-        print(f"Nopeus: {self.nopeus}")
+        print(f"Nopeus: {self.nopeus} km/h")
 
 
 a1 = Auto('ABC-123', 142)
