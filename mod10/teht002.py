@@ -1,15 +1,8 @@
-# Jatka edellisen tehtävän ohjelmaa siten, että teet Talo-luokan. Talon alustajaparametreina
-# annetaan alimman ja ylimmän kerroksen numero sekä hissien lukumäärä. Talon luonnin yhteydessä
-# talo luo tarvittavan määrän hissejä. Hissien lista tallennetaan talon ominaisuutena. Kirjoita
-# taloon metodi aja_hissiä, joka saa parametreinaan hissin numeron ja kohdekerroksen. Kirjoita
-# pääohjelmaan lauseet talon luomiseksi ja talon hisseillä ajelemiseksi.
-
 class Hissi:
-    def __init__(self, alin_kerros, ylin_kerros, hissi_numero):
+    def __init__(self, alin_kerros, ylin_kerros):
         self.alin = alin_kerros
         self.ylin = ylin_kerros
         self.kerros = alin_kerros
-        self.numero = hissi_numero
 
     def siirry_kerrokseen(self, kohdekerros):
         if kohdekerros > self.kerros:
@@ -29,27 +22,19 @@ class Hissi:
         self.kerros -= 1
 
 class Talo:
-    def __init__(self, alin_kerros, ylin_kerros):
-        self.hissit = []
+    def __init__(self, alin_kerros, ylin_kerros, hissien_lkm):
         self.alin = alin_kerros
         self.ylin = ylin_kerros
-
-
-    def hissit(self):
-        for i in range(3):
-            hissi = Talo(f'Hissi {i+1}')
-            self.hissit.append(hissi)
-
-
+        self.hissit = [Hissi(alin_kerros, ylin_kerros) for _ in range(hissien_lkm)]
 
     def aja_hissiä(self, hissin_numero, kohdekerros):
-        if 1 <= hissin_numero < len(self.hissit):
+        if 0 <= hissin_numero < len(self.hissit):
             self.hissit[hissin_numero].siirry_kerrokseen(kohdekerros)
         else:
             print(f'Hissiä numero {hissin_numero} ei ole olemassa.')
 
-
-talo = Talo(1, 10)
-talo.aja_hissiä(1, 5)
-talo.aja_hissiä(2, 7)
-talo.aja_hissiä(3, 3)
+# Pääohjelma
+talo = Talo(1, 10, 3)
+talo.aja_hissiä(0, 5)
+talo.aja_hissiä(1, 7)
+talo.aja_hissiä(2, 3)
