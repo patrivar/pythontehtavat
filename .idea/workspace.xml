@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcss/minunsivu.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcss/minunsivu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +183,7 @@
       <workItem from="1726739408426" duration="310000" />
       <workItem from="1729597128302" duration="3116000" />
       <workItem from="1729750175879" duration="1981000" />
-      <workItem from="1729753209223" duration="3297000" />
-    </task>
-    <task id="LOCAL−00057" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724934690753</created>
-      <option name="number" value="LOCAL−00057" />
-      <option name="presentableId" value="LOCAL−00057" />
-      <updated>1724934690754</updated>
+      <workItem from="1729753209223" duration="5515000" />
     </task>
     <task id="LOCAL−00058" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -527,7 +521,14 @@
       <option name="presentableId" value="LOCAL−00105" />
       <updated>1729756461437</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL−00106" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1729756584199</created>
+      <option name="number" value="LOCAL−00106" />
+      <option name="presentableId" value="LOCAL−00106" />
+      <updated>1729756584199</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
