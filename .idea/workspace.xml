@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981be3da-53f8-400f-bef7-49e0f724a24c" name="Changes" comment="Python tehtävät">
+      <change afterPath="$PROJECT_DIR$/htmlcss/minunsivu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod09/esim9.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod09/esim9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,42 +48,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.esim9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod2-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod3-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod4-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod5-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod6-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod7-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod8-esim.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht3,1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht7.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.esim9.executor": "Run",
+    "Python.mod2-esim.executor": "Run",
+    "Python.mod3-esim.executor": "Run",
+    "Python.mod4-esim.executor": "Run",
+    "Python.mod5-esim.executor": "Run",
+    "Python.mod6-esim.executor": "Run",
+    "Python.mod7-esim.executor": "Run",
+    "Python.mod8-esim.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.teht01.executor": "Run",
+    "Python.teht02.executor": "Run",
+    "Python.teht03.executor": "Run",
+    "Python.teht04.executor": "Run",
+    "Python.teht05.executor": "Run",
+    "Python.teht06.executor": "Run",
+    "Python.teht1.executor": "Run",
+    "Python.teht2.executor": "Run",
+    "Python.teht3,1.executor": "Run",
+    "Python.teht3.executor": "Run",
+    "Python.teht4.executor": "Run",
+    "Python.teht5.executor": "Run",
+    "Python.teht6.executor": "Run",
+    "Python.teht7.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\patri\PycharmProjects\ohjelmisto1\pythontehtävät\mod01" />
@@ -180,14 +182,8 @@
       <workItem from="1726738935091" duration="176000" />
       <workItem from="1726739408426" duration="310000" />
       <workItem from="1729597128302" duration="3116000" />
-      <workItem from="1729750175879" duration="1629000" />
-    </task>
-    <task id="LOCAL−00055" summary="Python tehtävät">
-      <option name="closed" value="true" />
-      <created>1724932180826</created>
-      <option name="number" value="LOCAL−00055" />
-      <option name="presentableId" value="LOCAL−00055" />
-      <updated>1724932180826</updated>
+      <workItem from="1729750175879" duration="1981000" />
+      <workItem from="1729753209223" duration="2989000" />
     </task>
     <task id="LOCAL−00056" summary="Python tehtävät">
       <option name="closed" value="true" />
@@ -525,7 +521,14 @@
       <option name="presentableId" value="LOCAL−00103" />
       <updated>1729600249095</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL−00104" summary="Python tehtävät">
+      <option name="closed" value="true" />
+      <created>1729751826393</created>
+      <option name="number" value="LOCAL−00104" />
+      <option name="presentableId" value="LOCAL−00104" />
+      <updated>1729751826393</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
