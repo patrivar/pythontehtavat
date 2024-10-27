@@ -14,3 +14,4 @@ class Auto:
         print(f"Auto luotu {self.rek_nro}, huiput {self.huippunopeus}")
 
 Auto('ABC-123', 142)
+

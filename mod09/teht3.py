@@ -7,7 +7,7 @@ class Auto:
     def __init__(self, rek_nro, huippunopeus):
         self.rek_nro = rek_nro
         self.nopeus = 0
-        self.matka = 0
+        self.matka = 2000
         self.huippunopeus = huippunopeus
         print(f"Auto luotu {self.rek_nro}, huiput {self.huippunopeus}")
 
@@ -25,17 +25,11 @@ class Auto:
         print(f"Auto on kulkenut {self.matka:.2f}km.")
 
     def ajo(self, aika):
-        self.matka = aika * self.nopeus
+        self.matka = self.matka + aika * self.nopeus
 
 
 a1 = Auto('ABC-123', 142)
-a1.kiihdyta(30)
-a1.ajo(0.1)
-a1.kiihdyta(70)
-a1.ajo(0.5)
-a1.kiihdyta(50)
-a1.ajo(0.2)
-a1.auton_nopeus()
-a1.kiihdyta(-200)
-a1.auton_nopeus()
+a1.kiihdyta(60)
+a1.ajo(1.5)
+
 a1.etäisyys()

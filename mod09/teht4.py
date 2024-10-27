@@ -8,75 +8,50 @@
 # Kaikkia autoja käsketään liikkumaan yhden tunnin ajan. Tämä tehdään kutsumalla kulje-metodia.
 # Kilpailu jatkuu, kunnes jokin autoista on edennyt vähintään 10000 kilometriä. Lopuksi tulostetaan
 # kunkin auton kaikki ominaisuudet selkeäksi taulukoksi muotoiltuna.
+
 import random
 
-talli = Autotalli()
 class Auto:
     def __init__(self, rek_nro, huippunopeus):
         self.rek_nro = rek_nro
-        self.nopeus = 0
-        self.matka = 0
         self.huippunopeus = huippunopeus
+        self.matka = 0
+        self.nopeus = 0
 
-    def kiihdyta(self, nopeuden_muutos):
+    def kiihdytä(self, nopeuden_muutos):
         self.nopeus = self.nopeus + nopeuden_muutos
         if self.nopeus > self.huippunopeus:
             self.nopeus = self.huippunopeus
         if self.nopeus < 0:
             self.nopeus = 0
 
-    def auton_nopeus(self):
-        print(f"Nopeus: {self.nopeus} km/h")
-
-    def etaisyys(self):
-        print(f"Auto on kulkenut {self.matka:.2f}km.")
-
     def ajo(self, aika):
-        self.matka = aika * self.nopeus
+        self.matka = self.matka + aika * self.nopeus
 
-    def tulosta_ominaisuudet(self):
-        print(f"{self.rek_nro}, huippunopeus: {self.huippunopeus}")
-        print(f"Nopeus: {self.nopeus}, matkamittari: {self.matka}")
+def luoautot(määrä):
+    autot = []
+    for i in range(1, määrä +1):
+        rek_nro = f"ABC-{i}"
+        huippunopeus = random.randint(100,200)
+        autot.append(Auto(rek_nro, huippunopeus))
+    return autot
 
-class Autotalli:
-    def __init__(self):
-        self.autot = []
-    def auto_sisaan(self, auto):
-        for a in self.autot:
-            if a == auto:
-                return
-        self.autot.append(auto)
+def tulokset(autot):
+    for auto in autot:
+        print(f"{auto.rek_nro:<10} {auto.huippunopeus:<8} {auto.matka:<8} {auto.nopeus:<8}")
 
-    def tulosta_inventaario(self):
-        print("Autotallissa on:")
-        for auto in self.autot:
-            auto.tulosta_ominaisuudet()
+def kisa():
+    autot = luoautot(10)
+    kisajatkuu = True
 
-    def valitunti(self):
-        for auto in self.autot:
-            auto.self.nopeus += random.randint(-10,15)
-
-    def autot(self):
-        for i in range(10):
-            uusi_auto = Auto(f"ABC-{i + 1}", random.randint(100, 200))
-            talli.auto_sisaan(uusi_auto)
-        talli.tulosta_inventaario()
-
-    def tulosta_tulokset(autot):
-        print(f"{'Rekisteritunnus':<12} {'Huippunopeus':<12} {'Nopeus':<7} {'Matka':<7}")
+    while kisajatkuu == True:
         for auto in autot:
-            print(f"{auto.rekisteritunnus:<12} {auto.huippunopeus:<12} {auto.nopeus:<7} {auto.matka:<7}")
+            nopeuden_muutos = random.randint(-10, 15)
+            auto.kiihdytä(nopeuden_muutos)
+            auto.ajo(1)
+            if auto.matka >= 10000:
+                kisajatkuu = False
 
-    def kilpailu(self):
-        autot = talli
-        kilpailu_kaynnissa = True
+    tulokset(autot)
 
-        while kilpailu_kaynnissa:
-            for auto in autot:
-                nopeuden_muutos = random.randint(-10, 15)
-                auto.kiihdyta(nopeuden_muutos)
-                auto.kulje(1)
-                if auto.matka >= 10000:
-                    kilpailu_kaynnissa = False
-
-    tulosta_tulokset(autot)
+kisa()
