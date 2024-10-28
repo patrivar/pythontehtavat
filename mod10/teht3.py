@@ -33,7 +33,6 @@ class Talo:
         self.alin = alin_kerros
         self.ylin = ylin_kerros
         self.luo_hissit()
-        self.palohalytys = False
 
     def palo(self):
         print("Talossa on palohälytys ja kaikki hissit palaavat kerrokseen 1.")
