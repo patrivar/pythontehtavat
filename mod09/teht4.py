@@ -38,7 +38,7 @@ def luoautot(määrä):
 
 def tulokset(autot):
     for auto in autot:
-        print(f"{auto.rek_nro:<10} {auto.huippunopeus:<8} {auto.matka:<8} {auto.nopeus:<8}")
+        print(f"{auto.rek_nro:<10} huipunopeus: {auto.huippunopeus:<8} ajettu matka: {auto.matka:<8} nopeus: {auto.nopeus:<8}")
 
 def kisa():
     autot = luoautot(10)

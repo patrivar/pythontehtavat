@@ -11,10 +11,10 @@ def tynnyri(g):
     if g >= 0:
         while g >= 0:
             l = g * 3.785
-            print(f"Tynnyrissä on siis {l}")
+            print(f"Tynnyrissä on siis {l:.2f} litraa bensaa.")
             g = int(input("Montako gallonaa bensaa tynnyrissä on: "))
 
     print("Tynnyrissä ei ole polttoainetta")
-    return True
+    return
 
 tynnyri(g)

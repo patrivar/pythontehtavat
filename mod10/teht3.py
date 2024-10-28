@@ -1,6 +1,7 @@
 # Jatka edellisen tehtävän ohjelmaa siten, että Talo-luokassa on parametriton metodi
 # palohälytys, joka käskee kaikki hissit pohjakerrokseen. Jatka pääohjelmaa siten, että
 # talossasi tulee palohälytys.
+import random
 
 class Hissi:
     def __init__(self, alin_kerros, ylin_kerros, hissi_numero):
@@ -32,6 +33,12 @@ class Talo:
         self.alin = alin_kerros
         self.ylin = ylin_kerros
         self.luo_hissit()
+        self.palohalytys = False
+
+    def palo(self):
+        print("Talossa on palohälytys ja kaikki hissit palaavat kerrokseen 1.")
+        for hissi in self.hissit:
+            hissi.siirry_kerrokseen(self.alin)
 
     def luo_hissit(self):
         for i in range(3):
@@ -48,3 +55,4 @@ talo = Talo(1, 10)
 talo.aja_hissia(1, 5)
 talo.aja_hissia(2, 7)
 talo.aja_hissia(3, 3)
+talo.palo()

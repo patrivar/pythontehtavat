@@ -9,11 +9,10 @@ def noppa():
     s = random.randint(1,6)
     if s == 6:
         print(f"{s}")
-        return True
     else:
        while s != 6:
            s = random.randint(1,6)
            print(f"{s}")
-    return True
+    return
 
 noppa()

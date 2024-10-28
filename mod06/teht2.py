@@ -11,11 +11,10 @@ def noppa(n):
     s = random.randint(1,n)
     if s == n:
         print(f"{s}")
-        return True
     else:
        while s != n:
            s = random.randint(1,n)
            print(f"{s}")
-    return True
+    return
 
 noppa(n)
