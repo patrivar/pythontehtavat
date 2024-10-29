@@ -19,7 +19,7 @@ class tuntipalkkainen(Työntekijä):
 
     def tulosta_tiedot(self):
         super().tulosta_tiedot()
-        print(f"{self.tuntipalkka}")
+        print(f"Tuntipalkkalaisen palkka: {self.tuntipalkka}")
 
 class kuukausipalkkainen(Työntekijä):
     def __init__(self,etunimi, sukunimi, kuukausipalkka):
@@ -27,8 +27,10 @@ class kuukausipalkkainen(Työntekijä):
         super().__init__(etunimi, sukunimi)
 
     def tulosta_tiedot(self):
+        # Haetaan yliluokan metodi printti
         super().tulosta_tiedot()
-        print(f"{self.kuukausipalkka}")
+        # Lisätään oma aliluokan printti
+        print(f"Kuukausipalkkalaisen palkka: {self.kuukausipalkka}")
 
 työntekijät = []
 työntekijät.append(Työntekijä("Viivi", "Virta"))
