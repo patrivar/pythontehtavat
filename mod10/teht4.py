@@ -77,7 +77,7 @@ while not kilpailu.kilpailu_ohi():
     kilpailu.tunti_kuluu()
     tunnit += 1
     if tunnit % 10 == 0:
-        print(f"Tilanne kun kisaa on ajettu {tunnit} tuntia:\n")
+        print(f"\nTilanne kun kisaa on ajettu {tunnit} tuntia:")
         kilpailu.tulosta_tilanne()
 
 print("\nKilpailu on päättynyt!")
