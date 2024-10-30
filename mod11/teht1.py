@@ -17,7 +17,7 @@ class Kirja(Julkaisu):
         self.sivumaara = sivumaara
     
     def tulosta_tiedot(self):
-        print(f"Teos: {Julkaisu.nimi}Kirjailija: {self.kirjoittaja} Teoksessa on sivuja {self.sivumaara}")
+        print(f"Teos: {self.nimi}Kirjailija: {self.kirjoittaja} Teoksessa on sivuja {self.sivumaara}")
     
 class Lehti(Julkaisu):
     def __init__(self,nimi, julkaisuvuosi, paatoimittaja):
@@ -25,7 +25,7 @@ class Lehti(Julkaisu):
         self.paatoimittaja = paatoimittaja
 
     def tulosta_tiedot(self):
-        print(f"Lehti: {Julkaisu.nimi} Päätoimittaja: {self.paatoimittaja}")
+        print(f"Lehti: {self.nimi} Päätoimittaja: {self.paatoimittaja}")
 
 
 j = Julkaisu('Magea Magasiini', 2000)
@@ -35,3 +35,5 @@ lehti = Lehti('Aku Ankka', 2002, 'Aki Hyyppä')
 
 print(kirja.nimi)
 
+kirja.tulosta_tiedot()
+lehti.tulosta_tiedot()
